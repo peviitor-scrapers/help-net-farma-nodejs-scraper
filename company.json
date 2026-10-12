@@ -1,0 +1,85 @@
+{
+  "validatedAt": "2026-10-12T19:15:48.752Z",
+  "source": "ANAF",
+  "brand": "Help Net",
+  "anaf": {
+    "cui": 14169353,
+    "name": "HELP NET FARMA SA",
+    "address": "MUNICIPIUL BUCUREŞTI, SECTOR 1, STR PICTOR ROSENTHAL, NR.14, CAM. 2, ET.2, AP.3",
+    "registrationNumber": "J2001007727404",
+    "phone": "0213082500",
+    "fax": "0213082524",
+    "postalCode": "",
+    "caenCode": "4773",
+    "iban": "",
+    "registrationState": "INREGISTRAT din data 15.07.2014",
+    "registrationDate": "2001-09-12",
+    "fiscalAuthority": "Direcţia Generală de Administrare a Marilor Contribuabili",
+    "ownershipForm": "PROPR.PRIVATA-CAPITAL PRIVAT STRAIN",
+    "organizationForm": "PERSOANA JURIDICA",
+    "legalForm": "SOCIETATE COMERCIALĂ PE ACŢIUNI",
+    "vatRegistered": true,
+    "vatPeriods": [
+      {
+        "start": "2001-10-01",
+        "end": null,
+        "yearStart": "",
+        "message": ""
+      }
+    ],
+    "cashBasisVat": false,
+    "cashBasisVatStart": null,
+    "cashBasisVatEnd": null,
+    "inactive": false,
+    "inactiveSince": null,
+    "reactivatedSince": null,
+    "splitVat": false,
+    "eFacturaRegistered": false,
+    "headquartersAddress": {
+      "street": "Str PICTOR ROSENTHAL",
+      "number": "14",
+      "locality": "Sector 1 Mun. Bucureşti",
+      "county": "MUNICIPIUL BUCUREŞTI",
+      "country": "",
+      "postalCode": ""
+    },
+    "fiscalAddress": {
+      "street": "",
+      "number": "",
+      "locality": "",
+      "county": "",
+      "country": "",
+      "postalCode": ""
+    },
+    "administrators": [],
+    "authorizedCaenCodes": [],
+    "onrcStatus": 0,
+    "onrcStatusLabel": "Funcțiune"
+  },
+  "peviitor": {
+    "id": "14169353",
+    "company": "HELP NET FARMA SA",
+    "brand": "Help Net",
+    "status": "activ",
+    "location": [
+      "Bucuresti"
+    ],
+    "website": [
+      "https://www.helpnet.ro"
+    ],
+    "career": [
+      "https://careers.phoenixgroup.eu/HelpNet/"
+    ],
+    "lastScraped": "2026-10-12",
+    "scraperFile": "https://github.com/peviitor-scrapers/help-net-farma-nodejs-scraper/actions/workflows/scrape.yml",
+    "_version_": 1878872537124831200,
+    "_root_": "14169353"
+  },
+  "summary": {
+    "company": "HELP NET FARMA SA",
+    "cif": "14169353",
+    "active": true,
+    "inactiveSince": null,
+    "address": "MUNICIPIUL BUCUREŞTI, SECTOR 1, STR PICTOR ROSENTHAL, NR.14, CAM. 2, ET.2, AP.3"
+  }
+}

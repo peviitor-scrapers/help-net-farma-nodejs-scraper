@@ -143,11 +143,11 @@ async function fetchSitemapJobUrls() {
     const xml = await res.text();
     const entries = [];
     // one path segment past JOB_PATH, e.g. /jobs/<slug>/ but not the /jobs/ index
-    const jobUrlRe = new RegExp(`${JOB_PATH.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}[^/]+/?$`);
+    const jobUrlRe = new RegExp(`${JOB_PATH.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}[^/]+/\\d+/?$`);
     for (const m of xml.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)) {
-      const url = m[1].trim();
+      const url = m[1].trim().replace(/&amp;/g, "&");
       if (!jobUrlRe.test(url)) continue;
-      const slug = url.replace(/\/$/, "").split("/").pop();
+      const slug = decodeURIComponent(url.replace(/\/$/, "").split("/").slice(-2, -1)[0]);
       entries.push({ url, slug });
     }
     console.log(`  Sitemap: ${entries.length} job permalinks`);
@@ -266,6 +266,27 @@ function locationFromTitle(title) {
   return hit ? [hit] : scraperConfig.defaultLocation;
 }
 
+/**
+ * Parse one careers.phoenixgroup.eu job page (SuccessFactors): the title sits
+ * in an element with itemprop="title".
+ * @param {string} html
+ * @returns {{title: string|null}}
+ */
+function parseJobDetail(html) {
+  const m = String(html).match(/itemprop="title"[^>]*>([\s\S]*?)<\/(?:span|h1|div)>/i);
+  return { title: m ? cleanTitle(m[1]) || null : null };
+}
+
+/**
+ * Job slugs start with the city: "Timisoara-Pharmacist-TM", "Pucioasa-Farmacist-Sef-DB".
+ * @param {string} slug
+ * @returns {string|null}
+ */
+function cityFromSlug(slug) {
+  const first = String(slug || '').split('-')[0];
+  return first && /^[A-Za-z\u00C0-\u024F]{3,}$/.test(first) ? first : null;
+}
+
 async function scrapeCareers() {
   console.log(`Scraping ${scraperConfig.sources.listing} ...`);
   const jobs = [];
@@ -275,7 +296,9 @@ async function scrapeCareers() {
 
   let listingItems = [];
   try {
-    listingItems = parseListing(await fetchListing());
+    // Help Net (Phoenix SuccessFactors): the search page is client-rendered -- the sitemap is
+    // the source of truth, so the generic listing parse is skipped.
+    listingItems = [];
     console.log(`  Listing: ${listingItems.length} open positions`);
   } catch (err) {
     console.log(`  Listing error: ${err.message}`);
@@ -347,14 +370,23 @@ async function scrapeCareers() {
     // Listing unreachable — fall back to sitemap-only, deriving titles from slugs.
     console.log("  Falling back to sitemap-only (titles from slugs)");
     for (const e of sitemapEntries) {
-      const title = e.slug
-        .split("-")
-        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-        .join(" ");
+      // One detail page per job: itemprop="title"; the city is the first
+      // slug token (the page's own location list covers every pharmacy).
+      let title = null;
+      try {
+        const res = await fetch(e.url, { timeout: TIMEOUT, headers: { "User-Agent": userAgent } });
+        if (!res.ok) { console.log(`  ${e.url} -> ${res.status}, skipped`); await sleep(PAGE_DELAY); continue; }
+        title = parseJobDetail(await res.text()).title;
+      } catch (err) {
+        console.log(`  detail fetch failed ${e.url}: ${err.message}`);
+      }
+      await sleep(PAGE_DELAY);
+      if (!title) continue;
+      const city = cityFromSlug(e.slug);
       jobs.push({
         url: e.url,
         title,
-        location: scraperConfig.defaultLocation,
+        location: city ? [city] : scraperConfig.defaultLocation,
         workmode: scraperConfig.defaultWorkmode,
         source: CAREERS_SOURCE
       });
@@ -727,7 +759,7 @@ async function main(dryRun = process.argv.includes("--dry-run")) {
   }
 }
 
-export { mapToJobModel, transformJobsForSOLR, scrapeCareers, fetchSitemapJobUrls, parseListing, slugify, matchSitemapUrl, matchSitemapUrlExact, parseDeadline, dropDeadUrls };
+export { parseJobDetail, cityFromSlug, mapToJobModel, transformJobsForSOLR, scrapeCareers, fetchSitemapJobUrls, parseListing, slugify, matchSitemapUrl, matchSitemapUrlExact, parseDeadline, dropDeadUrls };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   main();
