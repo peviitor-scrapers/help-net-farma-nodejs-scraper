@@ -1,0 +1,10 @@
+{
+  "id": "14169353",
+  "company": "HELP NET FARMA SA",
+  "brand": "Help Net",
+  "status": "activ",
+  "location": ["Bucuresti"],
+  "website": ["https://www.helpnet.ro"],
+  "career": ["https://careers.phoenixgroup.eu/HelpNet/"],
+  "scraperFile": "https://github.com/peviitor-scrapers/help-net-farma-nodejs-scraper/actions/workflows/scrape.yml"
+}
