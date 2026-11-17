@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 1, STR PICTOR ROSENTHAL, NR.14, CAM. 2, ET.2, AP.3 |
 | Website | [https://www.helpnet.ro](https://www.helpnet.ro) |
 | Careers | [https://careers.phoenixgroup.eu/HelpNet/](https://careers.phoenixgroup.eu/HelpNet/) |
-| Last Scraped | 2026-11-16 |
+| Last Scraped | 2026-11-17 |
 
 ## Current Job Listings (13)
 
-_Generated: 2026-11-16T14:06:10.782Z_
+_Generated: 2026-11-17T14:59:42.941Z_
 
 ### Senior Accountant
 
@@ -44,32 +44,11 @@ _Generated: 2026-11-16T14:06:10.782Z_
 - **Location:** România
 - **Status:** scraped
 
-### HR Specialist
+### Farmacist Șef
 
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-HR-Specialist-IF/1373124655/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-HR-Specialist-IF/1373124655/)
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Pucioasa-Farmacist-%C8%98ef-DB/1368208455/](https://careers.phoenixgroup.eu/HelpNet/job/Pucioasa-Farmacist-%C8%98ef-DB/1368208455/)
 - **Work Mode:** on-site
 - **Location:** România
-- **Status:** scraped
-
-### HR Specialist
-
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-HR-Specialist-IF/1373124755/](https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-HR-Specialist-IF/1373124755/)
-- **Work Mode:** on-site
-- **Location:** România
-- **Status:** scraped
-
-### Social Media Expert
-
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Social-Media-Expert-IF/1374157255/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Social-Media-Expert-IF/1374157255/)
-- **Work Mode:** on-site
-- **Location:** România
-- **Status:** scraped
-
-### Pharmacist
-
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Timisoara-Pharmacist-TM/1363544155/](https://careers.phoenixgroup.eu/HelpNet/job/Timisoara-Pharmacist-TM/1363544155/)
-- **Work Mode:** on-site
-- **Location:** Timisoara
 - **Status:** scraped
 
 ### Farmacist
@@ -79,11 +58,11 @@ _Generated: 2026-11-16T14:06:10.782Z_
 - **Location:** Timișoara
 - **Status:** scraped
 
-### Farmacist Șef
+### Pharmacist
 
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Pucioasa-Farmacist-%C8%98ef-DB/1368208455/](https://careers.phoenixgroup.eu/HelpNet/job/Pucioasa-Farmacist-%C8%98ef-DB/1368208455/)
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Timisoara-Pharmacist-TM/1363544155/](https://careers.phoenixgroup.eu/HelpNet/job/Timisoara-Pharmacist-TM/1363544155/)
 - **Work Mode:** on-site
-- **Location:** România
+- **Location:** Timisoara
 - **Status:** scraped
 
 ### Pharmacy Manager
@@ -95,14 +74,35 @@ _Generated: 2026-11-16T14:06:10.782Z_
 
 ### Category Specialist
 
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Category-Specialist-IF/1368711255/](https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Category-Specialist-IF/1368711255/)
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Category-Specialist-IF/1368711155/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Category-Specialist-IF/1368711155/)
 - **Work Mode:** on-site
 - **Location:** România
 - **Status:** scraped
 
 ### Category Specialist
 
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Category-Specialist-IF/1368711155/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Category-Specialist-IF/1368711155/)
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Category-Specialist-IF/1368711255/](https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Category-Specialist-IF/1368711255/)
+- **Work Mode:** on-site
+- **Location:** România
+- **Status:** scraped
+
+### HR Specialist
+
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-HR-Specialist-IF/1373124655/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-HR-Specialist-IF/1373124655/)
+- **Work Mode:** on-site
+- **Location:** România
+- **Status:** scraped
+
+### Social Media Expert
+
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Social-Media-Expert-IF/1374157255/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Social-Media-Expert-IF/1374157255/)
+- **Work Mode:** on-site
+- **Location:** România
+- **Status:** scraped
+
+### HR Specialist
+
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-HR-Specialist-IF/1373124755/](https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-HR-Specialist-IF/1373124755/)
 - **Work Mode:** on-site
 - **Location:** România
 - **Status:** scraped
