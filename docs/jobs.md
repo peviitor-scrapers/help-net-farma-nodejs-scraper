@@ -7,14 +7,14 @@
 | CIF | 14169353 |
 | Brand | Help Net |
 | Status | activ |
-| Location | MUNICIPIUL BUCUREŞTI, SECTOR 1, STR PICTOR ROSENTHAL, NR.14, CAM. 2, ET.2, AP.3 |
+| Location | Bucuresti |
 | Website | [https://www.helpnet.ro](https://www.helpnet.ro) |
 | Careers | [https://careers.phoenixgroup.eu/HelpNet/](https://careers.phoenixgroup.eu/HelpNet/) |
-| Last Scraped | 2026-11-18 |
+| Last Scraped | 2026-11-19 |
 
-## Current Job Listings (13)
+## Current Job Listings (15)
 
-_Generated: 2026-11-18T14:40:47.275Z_
+_Generated: 2026-11-19T14:47:17.415Z_
 
 ### CRM Marketing Specialist
 
@@ -30,9 +30,23 @@ _Generated: 2026-11-18T14:40:47.275Z_
 - **Location:** România
 - **Status:** scraped
 
-### HR Specialist
+### Senior Accountant
 
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-HR-Specialist-IF/1373124655/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-HR-Specialist-IF/1373124655/)
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Senior-Accountant-IF/1373472855/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Senior-Accountant-IF/1373472855/)
+- **Work Mode:** on-site
+- **Location:** România
+- **Status:** scraped
+
+### Contabil Senior
+
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Contabil-Senior-IF/1373472955/](https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Contabil-Senior-IF/1373472955/)
+- **Work Mode:** on-site
+- **Location:** România
+- **Status:** scraped
+
+### Social Media Expert
+
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Social-Media-Expert-IF/1374157255/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Social-Media-Expert-IF/1374157255/)
 - **Work Mode:** on-site
 - **Location:** România
 - **Status:** scraped
@@ -47,20 +61,6 @@ _Generated: 2026-11-18T14:40:47.275Z_
 ### Category Specialist
 
 - **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Category-Specialist-IF/1368711155/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Category-Specialist-IF/1368711155/)
-- **Work Mode:** on-site
-- **Location:** România
-- **Status:** scraped
-
-### Category Specialist
-
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Category-Specialist-IF/1368711255/](https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Category-Specialist-IF/1368711255/)
-- **Work Mode:** on-site
-- **Location:** România
-- **Status:** scraped
-
-### Social Media Expert
-
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Social-Media-Expert-IF/1374157255/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Social-Media-Expert-IF/1374157255/)
 - **Work Mode:** on-site
 - **Location:** România
 - **Status:** scraped
@@ -86,6 +86,20 @@ _Generated: 2026-11-18T14:40:47.275Z_
 - **Location:** România
 - **Status:** scraped
 
+### HR Specialist
+
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-HR-Specialist-IF/1373124655/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-HR-Specialist-IF/1373124655/)
+- **Work Mode:** on-site
+- **Location:** România
+- **Status:** scraped
+
+### Category Specialist
+
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Category-Specialist-IF/1368711255/](https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Category-Specialist-IF/1368711255/)
+- **Work Mode:** on-site
+- **Location:** România
+- **Status:** scraped
+
 ### Farmacist Șef
 
 - **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Pucioasa-Farmacist-%C8%98ef-DB/1368208455/](https://careers.phoenixgroup.eu/HelpNet/job/Pucioasa-Farmacist-%C8%98ef-DB/1368208455/)
@@ -93,16 +107,16 @@ _Generated: 2026-11-18T14:40:47.275Z_
 - **Location:** România
 - **Status:** scraped
 
-### Senior Accountant
+### Business Analyst Lead
 
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Senior-Accountant-IF/1373472855/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Senior-Accountant-IF/1373472855/)
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Business-Analyst-Lead-IF/1377636755/](https://careers.phoenixgroup.eu/HelpNet/job/Balotesti-Business-Analyst-Lead-IF/1377636755/)
 - **Work Mode:** on-site
 - **Location:** România
 - **Status:** scraped
 
-### Contabil Senior
+### Business Analyst Lead
 
-- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Contabil-Senior-IF/1373472955/](https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Contabil-Senior-IF/1373472955/)
+- **URL:** [https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Business-Analyst-Lead-IF/1377636855/](https://careers.phoenixgroup.eu/HelpNet/job/Balote%C8%99ti-Business-Analyst-Lead-IF/1377636855/)
 - **Work Mode:** on-site
 - **Location:** România
 - **Status:** scraped
